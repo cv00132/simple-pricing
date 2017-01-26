@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  -moz-  box-sizing: border-box;
+  -webkit-   box-sizing: border-box;
+  border: 2px solid red;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+nav {
+  margin: 0%;
+}
+
+nav a {
+  margin: 1%;
+}
+
+ul {
+  list-style: none;
+}
+
+.bkgd-image {
+  background-image: url(normal-mode/assets/background.jpg);
+  background-size: cover;
+  background-position: 0% 9%;
+  padding: 8.5%;
+}
+
+.bkgd-text {
+  color: white;
+  text-align: center;
+}
+
+.centered {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mid-blox {
+  margin: 2% 0;
+  padding: 5%;
+  align-self: center;
+  height: 30%;
+  width: 30%;
+  float: left;
+}
+
+.price::before {
+  content: "$";
+
+}
+
+.ad-space {
+}
+
+.ad-copy {
+  float: left;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clearfix {
+  overflow: auto;
+}
