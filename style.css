@@ -18,6 +18,7 @@ nav {
   margin: .5% 0 .7% 1.1%;
   font-weight: bold;
   font-family: 'Varela', sans-serif;
+  color: grey;
 }
 
 #nav-logo {
@@ -35,6 +36,7 @@ nav {
 #nav-pricing {
   font-size: 88%;
   padding-right: 2.4%;
+  color: black;
 }
 
 #nav-contact {
@@ -127,6 +129,7 @@ li {
   background-color: #F7F7F7;
   font-size: 80%;
   font-weight: bolder;
+  color: #556369;
 }
 
 .mid-blox h3 {
@@ -139,11 +142,10 @@ li {
     letter-spacing: 1px;
     padding: 6%;
     color: white;
-    font-weight: lighter;
 }
 
 .program h3 {
-  margin-bottom: 0;
+  margin: 6% 9% 0% 7%;
   font-family: 'Varela', sans-serif;
   letter-spacing: 3px;
   font-size: 90%;
@@ -195,12 +197,12 @@ button {
 
 .ad-copy {
   float: left;
-  margin: 4% 0%;
+  display: inline-block;
+  margin: 3.6% -10% 2% 16%;
   text-align: left;
-  width: 40%;
+  width: 30%;
   line-height: 2;
   font-family: 'Varela', sans-serif;
-  padding-left: 8%;
 }
 
 .ad-copy h3 {
@@ -208,25 +210,53 @@ button {
   letter-spacing: 3px;
   width: auto;
   margin-bottom: 0;
+  margin-top: 5%;
+  padding-bottom: 2%;
 }
 
 .ad-copy p {
-  font-size: 90%;
+  font-size: 92%;
   margin: 0;
   line-height: 1.5em;
+  width: 108%;
+  letter-spacing: -.5px
+}
+
+#ad-copy-1 {
+  margin: 0% 0% 11% 0%;
+}
+
+#ad-copy-2 {
+  margin: 0% 4% 0% -2%;
+
+}
+
+#ad-copy-3 {
+  margin: 0% 0% 17% 0%;
+
+}
+
+#ad-copy-4 {
+  margin: 0% 0% 0% 0%;
+
 }
 
 footer {
   background: black;
   text-align: center;
   color: grey;
-  padding: 4% 0% 0% 0%;
-  font-size: 100%;
+  margin: 0% 0% 0% 0%;
+  padding: 1% 1% 1% 0%;
+  font-size: 98%;
 }
 
 footer a {
   text-decoration: underline;
   color: lightgrey;
+}
+
+.extra-space {
+  margin-bottom: 110%;
 }
 
 .clear-both {
