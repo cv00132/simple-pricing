@@ -176,12 +176,14 @@ li {
 button {
   background-color: white;
   font-weight: bold;
-  border-color: #E0E0E0;
+  border: 2px solid #E8E8E8;
   border-radius: 83px;
+  border-width: thin;
   font-size: 10pt;
   padding: 7px 6%;
   margin: 7%;
 }
+
 
 .price {
   font-size: 66pt;
