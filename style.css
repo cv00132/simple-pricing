@@ -1,8 +1,9 @@
-* {
-  box-sizing: border-box;
-  -moz-  box-sizing: border-box;
-  -webkit-   box-sizing: border-box;
-}
+  * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 
 .container {
   margin: 0 auto;
@@ -14,12 +15,31 @@ a {
 }
 
 nav {
-  margin: 1% 0;
+  margin: .5% 0 .7% 1.1%;
+  font-weight: bold;
+  font-family: 'Varela', sans-serif;
 }
 
-nav a {
-  margin: 1%;
-  font-size: 80%;
+#nav-logo {
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  font-size: 95%;
+}
+
+#nav-home {
+  padding-right: 2.3%;
+  padding-left: 2.5%;
+  font-size: 88%;
+}
+
+#nav-pricing {
+  font-size: 88%;
+  padding-right: 2.4%;
+}
+
+#nav-contact {
+  font-size: 88%;
+  letter-spacing: 0.2px;
 }
 
 ul {
@@ -35,8 +55,9 @@ li {
 .bkgd-image {
   background-image: url(normal-mode/assets/background.jpg);
   background-size: cover;
-  background-position: 0% 8.7%;
-  padding: 9% 9.1% 11.5% 9%;
+  background-position: 0% 6%;
+  padding: 14.8% 10% 15% 9%;
+  position: relative;
 }
 
 .bkgd-text {
@@ -44,26 +65,51 @@ li {
   text-align: center;
   font-weight: normal;
   text-shadow: black 1px 1px;
-  font-size: 289%;
+  font-size: 286%;
   margin: 0;
-  letter-spacing: -2px;
+  letter-spacing: -.8px;
+}
+
+#bkgd-1 {
+  position: absolute;
+  right: 38%;
+  bottom: 50%;
+}
+
+#bkgd-2 {
+  position: absolute;
+  right: 34.8%;
+  bottom: 36%;
 }
 
 .body-centered {
   margin: 0 auto;
   width: 80%;
+  position: relative;
 }
 
 .personal {
-  background-color: green;
+  background-color: #519251;
+}
+
+#personal {
+  margin-left: 5%;
 }
 
 .small-business {
-  background-color: blue;
+  background-color: #2C4985;
+}
+
+#small-business {
+  margin-top: 4%;
 }
 
 .enterprise {
-  background-color: black;
+  background-color: #111111;
+}
+
+#enterprise {
+  margin-top: 4%;
 }
 
 .mid-blox {
@@ -71,14 +117,16 @@ li {
   float: left;
   clear: right;
   margin: 4% 0% 0% 1.5%;
-  width: 25%;
+  width: 29%;
   border: 1px solid lightgrey;
 }
 
 .mid-blox li {
   border: 1px solid lightgrey;
-  padding: 4% 0% 4% 4%;
+  padding: 5% 0% 4% 0%;
   background-color: #F7F7F7;
+  font-size: 80%;
+  font-weight: bolder;
 }
 
 .mid-blox h3 {
@@ -96,56 +144,84 @@ li {
 
 .program h3 {
   margin-bottom: 0;
+  font-family: 'Varela', sans-serif;
+  letter-spacing: 3px;
+  font-size: 90%;
+}
+
+.program li {
+  color: #929B9E;
+}
+
+.per-month{
+  margin-top: 0%;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.personal .per-month {
+  color: #B0CEB0;
+}
+
+.small-business .per-month {
+  color: #94A3C1;
+}
+
+.enterprise .per-month {
+  color: #898989;
 }
 
 button {
-  border-radius: 5px;
   background-color: white;
   font-weight: bold;
-  border-radius: 40%;
+  border-color: #E0E0E0;
+  border-radius: 83px;
   font-size: 10pt;
-  padding: 4px 4%;
+  padding: 7px 6%;
+  margin: 7%;
 }
 
 .price {
-  font-size: 73pt;
-  margin: 0px -21px;
+  font-size: 66pt;
+  margin: 0 -21px;
   color: white;
+  font-weight: 100;
 }
 
 .price::before {
   content: "$";
 }
 
-.price::after {
-  content: "";
-  letter-spacing: -5%;
-}
 
 .ad-copy {
   float: left;
-  margin: 5% 3%;
+  margin: 4% 0%;
   text-align: left;
   width: 40%;
   line-height: 2;
+  font-family: 'Varela', sans-serif;
+  padding-left: 8%;
 }
 
 .ad-copy h3 {
-  font-family: 'Oxygen', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  width: auto;
+  margin-bottom: 0;
 }
 
 .ad-copy p {
-  font-size: 60%;
+  font-size: 90%;
+  margin: 0;
+  line-height: 1.5em;
 }
 
 footer {
   background: black;
   text-align: center;
   color: grey;
-  padding: 1.5%;
-  font-size: 80%;
+  padding: 4% 0% 0% 0%;
+  font-size: 100%;
 }
 
 footer a {
